@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+
+.main {
+  display: flex;
+  width: 650px;
+  height: 420px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  border-radius: 25px;
+  box-shadow: 16px 16px 16px 0 rgba(2, 107, 219, 0.1);
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.result {
+  text-align: center;
+  width: 300px;
+  height: 420px;
+  border-radius: 25px;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.result > h4 {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+}
+
+.marksObtained {
+  align-items: center;
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: hsla(0, 0%, 100%, 1);
+  font-weight: 700;
+}
+
+.total {
+  margin-top: 0px;
+  color: hsla(0, 0%, 100%, 0.5);
+}
+
+.result > p {
+  text-align: center;
+  margin: 0 40px;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.5);
+}
+
+.result > h3 {
+  margin: 10px;
+  color: hsla(0, 0%, 100%, 1);
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.summary {
+  width: 300px;
+  height: 420px;
+  margin: 0 20px;
+}
+
+.summary > h4 {
+  font-size: 18px;
+  font-weight: 800;
+  color: rgb(58, 80, 125);
+}
+
+.summary > div {
+  border-radius: 10px;
+  width: 300px;
+  height: 50px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.reaction > img,
+.memory > img,
+.verbal > img,
+.visual > img {
+  height: 20px;
+  margin: 5px;
+}
+
+.reaction {
+  background-color: hsl(0, 100%, 97%);
+}
+
+.memory {
+  background-color: hsl(39, 100%, 97%);
+}
+
+.verbal {
+  background-color: hsl(166, 100%, 97%);
+}
+
+.visual {
+  background-color: hsl(234, 85%, 97%);
+}
+
+strong {
+  font-weight: 800;
+  color: hsl(224, 30%, 17%);
+}
+
+.reaction > h4,
+.memory > h4,
+.verbal > h4,
+.visual > h4 {
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  margin-right: 30px;
+  color: hsla(242, 13%, 52%, 0.678);
+}
+
+.reaction > h5 {
+  color: hsl(0, 100%, 67%);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.memory > h5 {
+  color: hsl(39, 100%, 56%);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.verbal > h5 {
+  color: hsl(166, 100%, 37%);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.visual > h5 {
+  color: hsl(234, 85%, 45%);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.summary > button {
+  padding: 15px 122px;
+  margin: 20px 0px;
+  border-radius: 50px;
+  font-family: "Hanken Grotesk", sans-serif;
+  color: hsla(0, 0%, 100%, 1);
+  background-color: hsl(224, 30%, 27%);
+  font-weight: 700;
+  border: none;
+}
+
+button:hover {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
